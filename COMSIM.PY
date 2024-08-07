@@ -1,0 +1,7 @@
+p=int(input("enter the principle amount:"))
+r=int(input("enter the rate:"))
+t=int(input("enter the time:"))
+simple=int(p*(r/100)*t)
+compound=round((p*(1+r/100)**t)-p)
+print("simple:",simple)
+print("compound:", compound)
